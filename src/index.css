@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.heroSection {
+  background-image: url(./assets//images/heroImg.png);
+}
+
+.shadow-secondary {
+  box-shadow: 10px 10px 0px #616161;;
+}
